@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="root">
+        <div class="currentPlayer">
+            <span>Now: <span id="currentPl">X</span></span>
+        </div>
+        <div class="gameResult">
+            <span>Result:</span>
+            <br>
+            <span id="whoWins"></span>
+        </div>
+
+        <div class="gameHistory">History:
+            <div id="roundHistory"></div>
+            <br>
+        </div>
+        
+        <div id="area"></div>
+        
+        <div class="stat">
+            <table>
+                <th colspan="2">Statistics</th>
+                <tr>
+                    <td>Winner X</td>
+                    <td id="sX"><span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Winner O</td>
+                    <td id="sO"><span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Draw</td>
+                    <td id="sD"><span>0</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
